@@ -1,0 +1,20 @@
+xmlns:samsung="http://schemas.android.com/apk/res/maxa.orcchg.smoothswitcher"
+
+<maxa.orcchg.smoothswitcher.SmoothSwitcher 
+		    android:id="@+id/trajectory_switch"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    samsung:text="@string/trajectory_switch"
+	        samsung:vertical_padding="10dp"
+	        samsung:horizontal_padding="5dp"
+	        samsung:box_height="30dp"
+	        samsung:box_width="@dimen/drawer_width_minus"
+	        samsung:max="@dimen/drawer_width_minus"
+	        samsung:enabled="false" />
+
+
+m_switch = (SmoothSwitcher) layout.findViewById(R.id.drawer_menu).findViewById(R.id.trajectory_switch);
+m_switch.setOnSmoothSwitcherCheckedChangeListener(new OnSmoothSwitcherCheckedChangeListener() {
+  public void onCheckedChanged(SmoothSwitcher switcher, boolean isChecked) {}
+});
+

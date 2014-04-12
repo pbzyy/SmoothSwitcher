@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <attr name="vertical_padding" format="dimension" />
+    <attr name="horizontal_padding" format="dimension" />
+    <attr name="box_height" format="dimension" />
+    <attr name="box_width" format="dimension" />
+    <attr name="max" format="dimension" />
+	
+	<declare-styleable name="SmoothSwitcher">
+	    <attr name="vertical_padding" />
+	    <attr name="horizontal_padding" />
+	    <attr name="box_height" />
+	    <attr name="box_width" />
+	    <attr name="max" />
+	    <attr name="enabled" format="boolean" />
+	    <attr name="text" format="string" />
+	</declare-styleable>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="switcher_cursor_off">#787878</color>
+    <color name="switcher_cursor_on">#0033FF</color>
+    <color name="switcher_cursor_drag">#0066FF</color>
+    <color name="switcher_background">#303030</color>
+</resources>
