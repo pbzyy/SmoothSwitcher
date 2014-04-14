@@ -96,6 +96,7 @@ public class SmoothSwitcher extends View {
   public void setChecked(boolean checked) {
     m_enabled = checked;
     m_current_relative_position = m_enabled ? m_box_rect_width * 0.5f : 0.0f;
+    m_cursor_state = m_enabled ? SmoothSwitcherCursorStates.ENABLED : SmoothSwitcherCursorStates.DISABLED;
     m_position = m_horizontal_padding + m_text_width + m_current_relative_position;
     invalidate();
   }
